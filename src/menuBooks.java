@@ -6,14 +6,16 @@
 
 
 import java.util.Scanner;
-
-/**
- *
- * @author USER
+/**<h1>menu books</h1>
+ * 
+ * @author spide
  */
 public class menuBooks {
-
-    public static void main (String[] args) {
+    /**
+     * 
+     * @param args show the menu of bookstore by allowing the user to select the menu.
+     */
+       public static void main (String[] args) {
         ListOfBooks bookstore = new ListOfBooks();
         Scanner input = new Scanner(System.in);
         int select;
